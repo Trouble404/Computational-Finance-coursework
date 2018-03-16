@@ -11,5 +11,5 @@
 
 ## Part II
 * Black-Scholes model to estimate the call and put price in European style；
-* Apply Black0Scholes model to real market to anlysis the difference between theory and practical. Anlysis the volatility smile in particular day；
+* Apply Black-Scholes model to real market to anlysis the difference between theory and practical. Anlysis the volatility smile in particular day；
 * The comparsion between binomial lattice and Black-Scholes；
