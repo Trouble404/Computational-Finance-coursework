@@ -1,0 +1,135 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{8}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Brandimarte}{Brandimarte}{2013}]%
+        {brandimarte2013numerical}
+\bibfield{author}{\bibinfo{person}{Paolo Brandimarte}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Numerical methods in finance and economics:
+  a MATLAB-based introduction}}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brodie, Daubechies, De~Mol, Giannone, and
+  Loris}{Brodie et~al\mbox{.}}{2009}]%
+        {brodie2009sparse}
+\bibfield{author}{\bibinfo{person}{Joshua Brodie}, \bibinfo{person}{Ingrid
+  Daubechies}, \bibinfo{person}{Christine De~Mol}, \bibinfo{person}{Domenico
+  Giannone}, {and} \bibinfo{person}{Ignace Loris}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Sparse and stable Markowitz portfolios}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{106}, \bibinfo{number}{30}
+  (\bibinfo{year}{2009}), \bibinfo{pages}{12267--12272}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{DeMiguel, Garlappi, and Uppal}{DeMiguel
+  et~al\mbox{.}}{2007}]%
+        {demiguel2007optimal}
+\bibfield{author}{\bibinfo{person}{Victor DeMiguel}, \bibinfo{person}{Lorenzo
+  Garlappi}, {and} \bibinfo{person}{Raman Uppal}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Optimal versus naive diversification: How
+  inefficient is the 1/N portfolio strategy?}
+\newblock \bibinfo{journal}{\emph{The review of Financial studies}}
+  \bibinfo{volume}{22}, \bibinfo{number}{5} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{1915--1953}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dumas, Fleming, and Whaley}{Dumas
+  et~al\mbox{.}}{1998}]%
+        {dumas1998implied}
+\bibfield{author}{\bibinfo{person}{Bernard Dumas}, \bibinfo{person}{Jeff
+  Fleming}, {and} \bibinfo{person}{Robert~E Whaley}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Implied volatility functions: Empirical tests}.
+\newblock \bibinfo{journal}{\emph{The Journal of Finance}}
+  \bibinfo{volume}{53}, \bibinfo{number}{6} (\bibinfo{year}{1998}),
+  \bibinfo{pages}{2059--2106}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gutin, Yeo, and Zverovich}{Gutin
+  et~al\mbox{.}}{2001}]%
+        {gutin2001introduction}
+\bibfield{author}{\bibinfo{person}{G Gutin}, \bibinfo{person}{A Yeo}, {and}
+  \bibinfo{person}{A Zverovich}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Introduction to Algorithms (Cormen, Leiserson, and
+  Rivest)}.
+\newblock \bibinfo{journal}{\emph{Greedy Algorithms}} (\bibinfo{year}{2001}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hull and Basu}{Hull and Basu}{2016}]%
+        {hull2016options}
+\bibfield{author}{\bibinfo{person}{John~C Hull} {and}
+  \bibinfo{person}{Sankarshan Basu}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Options, futures, and other derivatives}}.
+\newblock \bibinfo{publisher}{Pearson Education India}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lobo, Fazel, and Boyd}{Lobo
+  et~al\mbox{.}}{2007}]%
+        {lobo2007portfolio}
+\bibfield{author}{\bibinfo{person}{Miguel~Sousa Lobo}, \bibinfo{person}{Maryam
+  Fazel}, {and} \bibinfo{person}{Stephen Boyd}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Portfolio optimization with linear and fixed
+  transaction costs}.
+\newblock \bibinfo{journal}{\emph{Annals of Operations Research}}
+  \bibinfo{volume}{152}, \bibinfo{number}{1} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{341--365}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tian and Song}{Tian and Song}{2016}]%
+        {tian2016primal}
+\bibfield{author}{\bibinfo{person}{Zhenming Tian} {and} \bibinfo{person}{Xinyu
+  Song}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A Primal-Dual Polynomial Interior Point Method for
+  Portfolio Investment without Short Sale}.
+\newblock  (\bibinfo{year}{2016}).
+\newblock
+
+
+\end{thebibliography}
