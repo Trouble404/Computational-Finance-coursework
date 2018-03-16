@@ -1,24 +1,15 @@
 # Computational-Finance
-四个金融类数据分析项目
 
-## 项目一
-* 给四种投资组合建立有效集；
-* 通过马科维茨模型和1/N策略对FTSE100三只股票进行投资组合，利用夏普比率来评估和比较投资组合的表现；
-* 分别利用贪心算法和L1范数提高模型稀疏性对FTSE100指数跟踪，这个两个算法分别给出来7支股票可以反映大盘指数；
+[COMP6212 Computational Finance 2017/18, Assignment (Part I: 50%)](https://github.com/Trouble404/Computational-Finance-coursework/blob/master/CompFinanceAssignmentPartOne2017.pdf)
 
-## 项目二
-* Black-Scholes期权定价模型估算某8支欧式期权的理论价格；
-* 通过实验证明理论价格贴近市场价格，也会有差异，研究“波动率对微笑”；
-* 二项树期权定价模型估算相同8支欧式期全对理论价格，当时间步数增加时，二项树模型与Black-Scholes模型一致；
+[My report](https://github.com/Trouble404/Computational-Finance-coursework/blob/master/report/computation_finance.pdf)
 
-## 项目三
-* 径向基网络（RBF network）估算欧式期权理论价格
+## Part I
+* Create an effective set of four portfolios；
+* According to use Markowitz Mean-Variance Model and 1\N strategy anlysis portfolio of 3 sotcks in FTSE-100. And using Sharp ratio to judge the performance of those two strategies；
+* Using Greedy algorithm and sparse index tracking with L1 regularization to pick stocks；
 
-## 项目四
-* 卡尔曼过滤器预测 S&P500 指数以及预测误差分析
-* 预测模型的核心是利用前 t-1 的观察指数来预测第 t 个 S&P200 指数。利用在滑动窗口动态系统中产生的随机过程方差，观察指数本身具有的观察方差和预测误差不断更新预测值;
-* 研究外部其他经济因素 S&P500 每月市盈率、原油每月均价、采购经理指数、个人每月可支配收入、美国每月人口以及每月失业率是否会影响误差，利用 LASSO 算法(L1 范数)结合滑动窗口分析预测值与真实值误差，得出预测值误差与可支配收入、人口及原油价格之间的线性关系;
-* 卡尔曼过滤器大大减少预测误差，并且误差的波动可以被相关的其他经济因素解释;
-
-
-
+## Part II
+* Black-Scholes model to estimate the call and put price in European style；
+* Apply Black0Scholes model to real market to anlysis the difference between theory and practical. Anlysis the volatility smile in particular day；
+* The comparsion between binomial lattice and Black-Scholes；
